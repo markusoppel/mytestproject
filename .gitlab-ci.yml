@@ -1,5 +1,5 @@
 variables:
-    - GIT_SSL_NO_VERIFY: "1"
+    GIT_SSL_NO_VERIFY: "1"
 before_script:   
         - echo $CI_REPOSITORY_URL   
         - echo $HOSTNAME   
