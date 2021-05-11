@@ -3,4 +3,4 @@
 
        write(6,*) "Hello World from Gitlabrunner"
        stop 0
-       end
+       end program test
