@@ -8,6 +8,7 @@ before_script:
 Install:  
   script:
        - cd src
+       - sleep 120
        - make clean
        - make
        - make check
